@@ -13,7 +13,7 @@
     [TestClass]
     public class IntegrationTest1
     {
-        private string baseURL = "http://dotnetapp1.azurewebsites.net/pesron/";
+        private string baseURL = "http://localhost/TestApp_deploy/pesron";
         private RemoteWebDriver driver;
         private string browser;
         private object firefox;
